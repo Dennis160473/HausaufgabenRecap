@@ -1,0 +1,38 @@
+:root {
+    background-color: greenyellow;
+}
+[title~="Übung"] {
+    border: 5px solid brown;
+  }
+
+
+
+h1 {
+    color: red;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h2::before {
+    content: ./images/Smileytop.jpg;
+}
+p {
+    padding-left: 200px;
+}
+.hervorgehoben, .markiert {
+    color: turquoise;
+    font-weight: bold;
+    font-size: 16px;
+}
+div p {
+    background-color: violet;
+}
+input:focus {
+    background-color: maroon;
+    color: mediumaquamarine;
+}
+  button:hover {
+    background-color: red;
+    color: blue;
+}

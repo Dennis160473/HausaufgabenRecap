@@ -1,0 +1,82 @@
+/* :root, body, html, * ändern alle die Hintergrundfarbe
+Welcher Selektor macht was?
+body  --> Wählt das HTML-Tag "body" 
+html  --> Wählt das HTML-Tag "html"
+:root --> Wählt das HTML-Tag das alle anderen Umschließt (Die "Wurzel")
+*     --> "Universal-Selektor" - Wählt ALLE Html Tags aus
+*/
+:root {
+    background-color: beige;
+}
+
+/*Alle h1 UND alle p*/
+h1, p {
+    color: darkblue;
+}
+
+/*Alle p Elemente in allen Elementen mit Klasse "classP"*/
+.classP p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Elemente mit einer individuellen ID*/
+#idForP {
+    color: darkred;
+}
+
+/*Alle "p"-Tags mit einer Klasse "classP"*/
+p.classP {
+    background-color:aliceblue;
+}
+
+
+ul :nth-child(2n) {
+    font-size: 16px;
+    color: darkmagenta;
+}
+h1 {
+    color: darkred;
+}
+
+p {
+    font-size: 18px;
+}
+
+#haupttitel {
+    font-weight: bold;
+}
+
+.hervorgehoben, .markiert {
+    color: red;
+}
+
+.inhalt h2 {
+    text-decoration: underline;
+}
+
+/*Input Felder sollen Schwarz mit weißer Schrift sein, wenn fokussiert*/
+input:focus {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: green;
+    color: beige;
+}
+
+#liste :first-child, #liste :last-child {
+    font-weight: bold;
+}
+
+li::marker {
+    content: "🐙 ";
+}
+
+ul :first-child::first-letter {
+    color: green;
+}
+
+input[type="email"] {
+    border: red 2px solid;
+}

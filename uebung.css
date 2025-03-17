@@ -1,0 +1,25 @@
+h1 {
+    color: darkred;
+}
+p {
+    font-size: 19px;
+}
+#haupttitel {
+    font-weight: bold;
+}
+.hervorgehoben, .markiert{
+    color: red;
+}
+.inhalt h2{
+    text-decoration: underline;
+}
+button:hover{
+    background-color: green;
+}
+input:focus {
+    background-color: black;
+    color: white;
+}
+#liste :first-child, #liste :last-child{
+    font-weight: bold;
+}
