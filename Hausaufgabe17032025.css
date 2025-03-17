@@ -15,7 +15,7 @@ h2 {
     text-align: center;
 }
 h2::before {
-    content: ./images/Smileytop.jpg;
+    content: HausaufgabenRecap/images(Smileytop.jpg);
 }
 p {
     padding-left: 200px;
